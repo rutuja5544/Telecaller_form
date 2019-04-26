@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Telecaller Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/admin-materialize.min.css?0" rel="stylesheet">
+	<!-- Material Icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<style>
+		.container{
+			width: 60%;
+			height: 90%;
+			padding: 40px;
+		}
+
+		form.col.s12{
+			padding: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<form class="col s12 black-text green lighten-4 center">
+				<h2>Telecaller Form</h2>
+				<div class="input-field">
+					<i class="material-icons prefix">account_circle</i>
+					<input type="text" id="name" class="validate">
+					<label for="firstname">Name</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">phone</i>
+					<input type="text" id="Contact" class="validate">
+					<label for="contact">Contact</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">email</i>
+					<input type="email" id="email" class="validate">
+					<label for="email">Email</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">work</i>
+					<input type="text" id="qual" class="validate">
+					<label for="qualification">Qualification</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">account_balance</i>
+					<input type="text" id="college" class="validate">
+					<label for="college">College</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">home</i>
+					<input type="text" id="address" class="validate" data-length="10">
+					<label for="address">Address</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">description</i>
+					<input type="text" id="course" class="validate">
+					<label for="course">Course</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">face</i>
+					<input type="text" id="source" class="validate">
+					<label for="source">Source</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">edit</i>
+					<input type="text" id="remark" class="validate">
+					<label for="remark">Remark</label>
+				</div>
+
+				<div class="input-field">
+					<i class="material-icons prefix">feedback</i>
+					<input type="text" id="reason" class="validate">
+					<label for="reason">Reason</label>
+				</div>
+
+					<input class="btn waves-effect waves-light center" type="submit" value="Submit">
+
+				</div>
+			</form>
+		</div>	
+	 
+	  </div>
+	</div>
+    <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript">
+  	  $(document).ready(function() {
+    M.updateTextFields();
+  });
+    
+  </script>
+</body>
+</html>
